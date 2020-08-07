@@ -12,9 +12,8 @@ class Header extends Component {
            <p id = "agents">Agents of Change</p>
            <p><a href ="#">READ MORE</a></p>
            <button id ="fullissue">SEE FULL ISSUE</button>
-           </div>
-           <div id = "scroll">
-               <p>SCROLL DOWN</p>
+    
+            <p id ="scroll">SCROLL DOWN</p>
             </div> 
         </div>
       );
