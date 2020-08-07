@@ -11,8 +11,8 @@ class Navigation extends Component {
             <a href="#">TOPICS</a>
             <a href="#">BLOG</a>
             <a href="#">NEWSLETTER</a>
-            <a href ="#"><i class="fa fa-facebook-f"></i></a>
-            <a href ="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href ="#"><i className="fa fa-facebook-f"></i></a>
+            <a href ="#"><i className="fa fa-twitter" aria-hidden="true"></i></a>
             <a href="#">LOGIN</a>
             <button id ="subscribe">SUBSCRIBE</button>
         </div>
