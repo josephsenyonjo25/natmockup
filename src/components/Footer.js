@@ -5,7 +5,7 @@ class Footer extends Component {
     render() {
       return (
         <div className="Footer"> 
-          <div>
+          <div id ="top">
             <div className ="links">
               <a href ="#">ABOUT</a>
               <a href ="#">CONTACT / WORK WITH US</a>
@@ -29,9 +29,10 @@ class Footer extends Component {
 
           <div id = "bottom">
             <p>&copy; 2020 NautilusThink Inc. All rights reserved.
-              <span>Matter, Biology, Numbers, Ideas, Culture, <span className = "italic">Connected</span></span>
-              <span>Site by <span className ="code">CODE AND THEORY</span></span>
+              <span className ="code">Matter, Biology, Numbers, Ideas, Culture, <span className = "italic">Connected</span></span>
+              </p>
 
+            <p><span>Site by <span className ="code">CODE AND THEORY</span></span>
             </p>
           </div>
         </div>
