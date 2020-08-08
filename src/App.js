@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import './App.css';
 import Header from './components/Header';
 import Navigation from './components/Navigation';
+import Spotlight from './components/Spotlight';
 import Footer from './components/Footer';
 
 class App extends Component {
@@ -10,6 +11,7 @@ class App extends Component {
         <div className="App"> 
             <Header />
             <Navigation />
+            <Spotlight />
             <Footer />
 
         </div>
