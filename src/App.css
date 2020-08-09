@@ -111,7 +111,7 @@ button {
   font-weight: bold;
 }
 .Spotlight{
-  background-image: url("images/clover_card.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("images/clover_card.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 25% 30%;
@@ -119,7 +119,7 @@ button {
   url("images/clover_card.jpg"),
   no-repeat,cover,25% 30%;*/
 
-  filter: brightness(50%);
+  /*filter: brightness(50%);*/
   width: 100%;
   height: 200px;
   display: flex;
@@ -131,7 +131,7 @@ button {
 }
 #spotlight{
   margin:0;
-  color:black;
+  color:white;
   /*z-index:2;*/
 }
 #laws{
@@ -143,7 +143,7 @@ button {
 #readnow{
   background-color: white;
   color: black;
-  border: 1px solid black;
+  border: 2px solid black;
   font-weight: bold;
   padding: 10px;
 }
