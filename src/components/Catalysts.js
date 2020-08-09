@@ -30,8 +30,30 @@ class Catalysts extends Component {
                     <p>CHAPTER FOUR</p>
                     <p>Stars</p>
                     <p>Coming December 26</p>   
-                </div> 
-           
+                </div>
+            </div>
+            <div id= "catalysts_right">
+              <div>
+                  <div className="whitebox">
+                      <p>ARTIFICIAL INTELLIGENCE</p>
+                      <p>Best Screenplay Goes to the Algorithms</p>
+                      <p>By Arthur I. Miller</p>
+                  </div>
+              </div>
+              <div>
+                  <div className="whitebox">
+                      <p>MUSIC</p>
+                      <p>How I Taught My Computer to Write Its Own Music</p>
+                      <p>By John Supko</p>
+                  </div>
+              </div>
+              <div>
+                  <div className="whitebox">
+                      <p>ART</p>
+                      <p>Picasso's Got Nothing on AI Artists</p>
+                      <p>By Kevin Berger</p>
+                  </div>
+              </div>      
             </div> 
         </div>
       );
