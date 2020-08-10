@@ -26,7 +26,49 @@ class Channels extends Component {
                    <img src={require("../images/abstractions.jpeg")} />
                    <p className ="title">Mathematicians Calculate How Randomness Creeps In</p>
                    <p className = "author">by Marcus Woo</p> 
+                </div>
+                 <div className ="channelitem">
+                   <p className ="channel">EARTH</p>
+                   <img src={require("../images/earth.jpeg")} />
+                   <p className ="title">The Deep Time of Walden Pond</p>
+                   <p className = "author">by Curt Stager</p> 
+                </div>
+                <div className ="channelitem">
+                   <p className ="channel">THINK LIKE A SCIENTIST</p>
+                   <img src={require("../images/tlas.jpeg")} />
+                   <p className ="title">The Best Burger Place is a Lab</p>
+                   <p className = "author">by Thomas King</p> 
                 </div> 
+                <div className ="channelitem">
+                   <p className ="channel">cosmos</p>
+                   <img src={require("../images/cosmos.jpeg")} />
+                   <p className ="title">How Much Should Expectation Drive Science?</p>
+                   <p className = "author">by Claudia Geib</p> 
+                </div>
+                <div className ="channelitem">
+                   <p className ="channel">POETRY IN SCIENCE</p>
+                   <img src={require("../images/poetry.jpeg")} />
+                   <p className ="title">On Observation and Imagination</p>
+                   <p className = "author">by Gillian Osborne</p> 
+                </div>
+                <div className ="channelitem">
+                   <p className ="channel">Aging</p>
+                   <img src={require("../images/aging.png")} />
+                   <p className ="title">Yes, Life in the Fast Lane Kills You</p>
+                   <p className = "author">by Philip Ball</p> 
+                </div>
+                <div className ="channelitem">
+                   <p className ="channel">SCIENCE PHILANTHROPY ALLIANCE</p>
+                   <img src={require("../images/alliance.png")} />
+                   <p className ="title">Taking to the Stars</p>
+                   <p className = "author">by Science Philanthropy Alliance</p> 
+                </div>
+                <div className ="channelitem">
+                   <p className ="channel">MPNeuro</p>
+                   <img src={require("../images/maxplanck.jpeg")} />
+                   <p className ="title">Understanding the Brain with the Help of Artificial Intelligence</p>
+                   <p className = "author">by Max Planck Institute of Neurobiology</p> 
+                </div>          
             </div> 
         </div>
       );
