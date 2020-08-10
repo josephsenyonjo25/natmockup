@@ -4,8 +4,8 @@ import Header from './components/Header';
 import Navigation from './components/Navigation';
 import Spotlight from './components/Spotlight';
 import Catalysts from './components/Catalysts';
+import Channels from './components/Channels';
 import Footer from './components/Footer';
-
 
 class App extends Component {
     render() {
@@ -15,6 +15,7 @@ class App extends Component {
             <Navigation />
             <Spotlight />
             <Catalysts />
+            <Channels />
             <Footer />
 
         </div>

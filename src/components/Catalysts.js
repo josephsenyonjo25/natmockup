@@ -8,51 +8,53 @@ class Catalysts extends Component {
         <div className="Catalysts">
             <div id ="chapters">
                <div>
-                   <p>ISSUE 079</p>
+                   <p id="issue">ISSUE 079</p>
                    <h2>CATALYSTS</h2>
-                   <p>"What generates a new theory in science! .."</p>
+                   <p id ="theory">"What generates a new theory in science! .."</p>
                 </div>
-                <div>
+                <div id = "chapter1" className="chapter">
                     <p>CHAPTER ONE</p>
                     <p>Art</p>   
                 </div>
-                <div>
+                <div className="chapter">
                     <p>CHAPTER TWO</p>
                     <p>Mind</p>
-                    <p>Coming December 13</p>   
+                    <p className="date">Coming December 12</p>   
                 </div>
-                <div>
+                <div className="chapter">
                     <p>CHAPTER THREE</p>
                     <p>Energy</p>
-                    <p>Coming December 19</p>
+                    <p className="date">Coming December 19</p>
                 </div>
-                <div>
+                <div className="chapter">
                     <p>CHAPTER FOUR</p>
                     <p>Stars</p>
-                    <p>Coming December 26</p>   
+                    <p className="date">Coming December 26</p>   
                 </div>
             </div>
             <div id= "catalysts_right">
-              <div>
+              <div id="ai">
                   <div className="whitebox">
-                      <p>ARTIFICIAL INTELLIGENCE</p>
+                      <p className="subject">ARTIFICIAL INTELLIGENCE</p>
                       <p>Best Screenplay Goes to the Algorithms</p>
-                      <p>By Arthur I. Miller</p>
+                      <p className="author">By Arthur I. Miller</p>
                   </div>
               </div>
-              <div>
+              <div id= "music_art">
+              <div id="music"> 
                   <div className="whitebox">
-                      <p>MUSIC</p>
+                      <p className="subject">MUSIC</p>
                       <p>How I Taught My Computer to Write Its Own Music</p>
-                      <p>By John Supko</p>
+                      <p className="author">By John Supko</p>
                   </div>
               </div>
-              <div>
+              <div id ="art">
                   <div className="whitebox">
-                      <p>ART</p>
+                      <p className="subject">ART</p>
                       <p>Picasso's Got Nothing on AI Artists</p>
-                      <p>By Kevin Berger</p>
+                      <p className="author">By Kevin Berger</p>
                   </div>
+              </div>
               </div>      
             </div> 
         </div>
