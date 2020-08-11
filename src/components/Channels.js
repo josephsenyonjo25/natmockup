@@ -8,7 +8,7 @@ class Channels extends Component {
             
             <h1 id ="channels">Channels</h1>
             <p id = "tunein">TUNE IN TO NAUTILUS' DEEP DIVE PORTALS</p>
-            <div id ="channelitems">
+            <div className ="channelitems">
                 <div className ="channelitem">
                    <p className ="channel">BIOLOGY+BEYOND</p>
                    <img src={require("../images/bio_and_beyond.jpeg")} />
@@ -63,13 +63,16 @@ class Channels extends Component {
                    <p className ="title">Taking to the Stars</p>
                    <p className = "author">by Science Philanthropy Alliance</p> 
                 </div>
+               
                 <div className ="channelitem">
                    <p className ="channel">MPNeuro</p>
                    <img src={require("../images/maxplanck.jpeg")} />
                    <p className ="title">Understanding the Brain with the Help of Artificial Intelligence</p>
                    <p className = "author">by Max Planck Institute of Neurobiology</p> 
-                </div>          
-            </div> 
+                </div> 
+                <div className="blank"></div>
+                <div className="blank"></div>           
+                </div>
         </div>
       );
     }

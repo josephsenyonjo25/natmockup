@@ -254,3 +254,58 @@ button {
 .whitebox p:nth-child(2){
   margin: 0;
 }
+.Channels{
+  width:80%;
+  margin: 0 auto;
+  text-align: center;
+}
+.channelitems{
+  /*width: 100%;*/
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-areas:
+  'channel1 channel2 channel3' 
+  'channel4 channel5 channel6' 
+  'channel7 channel8 channel9' 
+  'channel10 blank blank';
+  grid-gap: 20px;
+}
+/*.channelitem{
+  width:30%;
+}*/
+.channelitems:nth-child(1) {
+  grid-area: channel1;
+}
+.channelitems:nth-child(2) {
+  grid-area: channel2;
+}
+.channelitems:nth-child(3) {
+  grid-area: channel3;
+}
+.channelitems:nth-child(4) {
+  grid-area: channel4;
+}
+.channelitems:nth-child(5) {
+  grid-area: channel5;
+}
+.channelitems:nth-child(6) {
+  grid-area: channel6;
+}
+.channelitems:nth-child(7) {
+  grid-area: channel7;
+}
+.channelitems:nth-child(8) {
+  grid-area: channel8;
+}
+.channelitems:nth-child(9) {
+  grid-area: channel9;
+}
+.channelitems:nth-child(10) {
+  grid-area: channel10;
+}
+.blank{
+  grid-area: blank;
+}
+.channelitem img{
+  width:100%;
+}
