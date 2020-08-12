@@ -5,6 +5,7 @@ import Navigation from './components/Navigation';
 import Spotlight from './components/Spotlight';
 import Catalysts from './components/Catalysts';
 import Channels from './components/Channels';
+import Popular from './components/Popular';
 import Footer from './components/Footer';
 
 class App extends Component {
@@ -16,6 +17,7 @@ class App extends Component {
             <Spotlight />
             <Catalysts />
             <Channels />
+            <Popular />
             <Footer />
 
         </div>
