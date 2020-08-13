@@ -6,6 +6,7 @@ import Spotlight from './components/Spotlight';
 import Catalysts from './components/Catalysts';
 import Channels from './components/Channels';
 import Popular from './components/Popular';
+import Facts from './components/Facts';
 import Footer from './components/Footer';
 
 class App extends Component {
@@ -18,6 +19,7 @@ class App extends Component {
             <Catalysts />
             <Channels />
             <Popular />
+            <Facts />
             <Footer />
 
         </div>

@@ -309,3 +309,57 @@ button {
 .channelitem img{
   width:100%;
 }
+
+.Popular{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+#popular{
+  font-style: italic;
+}
+#mostshared{
+  background-color: white;
+  color: black;
+}
+#popularlarge{
+  display: flex;
+  text-align:left;
+  margin-top: 50px;
+  align-items: flex-start;
+}
+#article1, #article2 {
+  display: flex;
+  align-items: flex-start;
+  padding-right: 20px;
+}
+
+.popularimage img{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 60px;
+  margin-top: 20px;
+}
+#popularlarge div{
+  padding-right: 20px;
+}
+#popularsmall{
+  display: flex;
+  text-align: left;
+}
+#popularsmall div{
+  width: 25%;
+  padding-right: 20px;
+}
+#popularlarge .title, #popularsmall .title {
+  font-size: 1.2em;
+  margin-bottom: 0;
+}
+#popularlarge .title{
+  font-size: 1.4em; 
+}
+.Popular .description {
+  font-style: italic;
+  margin:0;
+}
