@@ -363,3 +363,41 @@ button {
   font-style: italic;
   margin:0;
 }
+.Facts{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+#facts{
+  font-style: italic;
+}
+#seeall{
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  border: 2px solid black;
+}
+#factssmall{
+  display: flex;
+  text-align: left;
+  justify-content:space-between;
+  margin-top: 50px;
+}
+#factssmall img{
+  max-width: 100%;
+}
+#factssmall div{
+  width: 25%;
+  padding-right: 20px;
+}
+#factssmall .title {
+  font-size: 1.2em;
+  margin-bottom: 0;
+}
+.Facts .description {
+  font-style: italic;
+  margin:0;
+}
+.Facts .readmore {
+  font-weight: bold;
+}
