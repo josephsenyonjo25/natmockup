@@ -7,6 +7,7 @@ import Catalysts from './components/Catalysts';
 import Channels from './components/Channels';
 import Popular from './components/Popular';
 import Facts from './components/Facts';
+import Listen from './components/Listen';
 import Footer from './components/Footer';
 
 class App extends Component {
@@ -20,6 +21,7 @@ class App extends Component {
             <Channels />
             <Popular />
             <Facts />
+            <Listen />
             <Footer />
 
         </div>
