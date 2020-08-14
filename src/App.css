@@ -258,6 +258,7 @@ button {
   width:80%;
   margin: 0 auto;
   text-align: center;
+  margin-top:50px;
 }
 #channels{
   font-style: italic;
@@ -330,6 +331,7 @@ button {
   width: 80%;
   margin: 0 auto;
   text-align: center;
+  margin-top:50px;
 }
 #popular{
   font-style: italic;
@@ -384,6 +386,7 @@ button {
   width: 80%;
   margin: 0 auto;
   text-align: center;
+  margin-top:50px;
 }
 #facts{
   font-style: italic;
@@ -423,6 +426,7 @@ button {
   width: 80%;
   margin: 0 auto;
   text-align: center;
+  margin-top:50px;
 }
 #listen{
   font-style: italic;
@@ -464,6 +468,8 @@ button {
   margin: 0 auto;
   border-top: 2px solid lightgray;
   text-align: center;
+  margin-top:50px;
+  padding-top: 30px;
 }
 #prime{
   font-style: italic;
