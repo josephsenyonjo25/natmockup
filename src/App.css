@@ -259,6 +259,10 @@ button {
   margin: 0 auto;
   text-align: center;
 }
+#channels{
+  font-style: italic;
+  font-weight: normal;
+}
 .channelitems{
   /*width: 100%;*/
   display: grid;
@@ -269,6 +273,7 @@ button {
   'channel7 channel8 channel9' 
   'channel10 blank blank';
   grid-gap: 20px;
+  text-align: left;
 }
 /*.channelitem{
   width:30%;
@@ -309,7 +314,18 @@ button {
 .channelitem img{
   width:100%;
 }
-
+.channelitem .channel{
+  font-weight: bold;
+  margin-bottom:5px;
+  font-size:1em;
+}
+.channelitem .title{
+  margin:0;
+}
+.channelitem .author{
+  font-weight: normal;
+  margin:0;
+}
 .Popular{
   width: 80%;
   margin: 0 auto;
@@ -317,6 +333,7 @@ button {
 }
 #popular{
   font-style: italic;
+  font-weight: normal;
 }
 #mostshared{
   background-color: white;
@@ -370,6 +387,7 @@ button {
 }
 #facts{
   font-style: italic;
+  font-weight: normal;
 }
 #seeall{
   background-color: white;
@@ -400,4 +418,44 @@ button {
 }
 .Facts .readmore {
   font-weight: bold;
+}
+.Listen{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+#listen{
+  font-style: italic;
+  font-weight: normal;
+}
+#allaudio{
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  border: 2px solid black;
+}
+#listensmall{
+  display: flex;
+  text-align: left;
+  justify-content:space-between;
+  margin-top: 50px;
+}
+#listensmall img{
+  width: 100%;
+  height: 40%;
+}
+#listensmall div{
+  width: 25%;
+  padding-right: 20px;
+}
+#listensmall .subject {
+  margin: 0;
+}
+#listensmall .title {
+  font-size: 1.2em;
+  margin: 0;
+}
+.Listen .author {
+  font-style: italic;
+  font-weight: normal;
 }
