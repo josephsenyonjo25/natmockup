@@ -261,7 +261,7 @@ button {
 }
 #channels{
   font-style: italic;
-  font-weight: normal;
+  font-family: serif;
 }
 .channelitems{
   /*width: 100%;*/
@@ -333,7 +333,7 @@ button {
 }
 #popular{
   font-style: italic;
-  font-weight: normal;
+  font-family: serif;
 }
 #mostshared{
   background-color: white;
@@ -387,7 +387,7 @@ button {
 }
 #facts{
   font-style: italic;
-  font-weight: normal;
+  font-family: serif;
 }
 #seeall{
   background-color: white;
@@ -426,7 +426,7 @@ button {
 }
 #listen{
   font-style: italic;
-  font-weight: normal;
+  font-family: serif;
 }
 #allaudio{
   background-color: white;
@@ -458,4 +458,51 @@ button {
 .Listen .author {
   font-style: italic;
   font-weight: normal;
+}
+.Prime{
+  width: 80%;
+  margin: 0 auto;
+  border-top: 2px solid lightgray;
+  text-align: center;
+}
+#prime{
+  font-style: italic;
+  font-family: serif;
+}
+#learnmore{
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  border: 2px solid black;
+  margin-right: 10px;
+}
+#primecontent{
+  display: flex;
+  text-align: left;
+  justify-content:space-between;
+  align-items: flex-start;
+  margin-top: 50px;
+  margin-bottom:50px;
+}
+#primeimage {
+  margin-right: 30px;
+  width:60%;
+}
+#primecontent img{
+  width:100%;
+  object-fit:cover;
+}
+#primetext{
+  width:40%;
+  padding: 0;
+  margin:0;
+}
+#primetext p:nth-child(1){
+  margin-top: 0;
+}
+.bold{
+  font-weight: bold;
+}
+.underline{
+  text-decoration: underline;
 }
